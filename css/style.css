@@ -1,0 +1,276 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+margin: 0;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header, footer{
+  height: 
+
+}
+
+ul {
+list-style: none;
+margin-right: 850px;
+margin-top:0;
+padding-top: 20px;
+}
+
+li {
+display: inline;
+padding-left: 60px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color:black;
+  font-weight: 700;
+
+
+}
+main {
+  background-image: url('https://i.ibb.co/7C19XG8/micheile-dot-com-NXEFyj-Vt8-4-unsplash.jpg');
+  background-size: cover;
+  width:100%;
+  background-repeat: no-repeat;
+  height:900px;
+  
+}
+h1, h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: lighter;
+}
+
+
+h1 {
+  padding-top:150px;
+  padding-top:none;
+  font-size: 5em;
+  padding-left: 200px;
+}
+
+span {
+  color: #F68989;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+input{
+  width:500px;
+  height:45px;
+  margin-top:0;
+  margin-left:200px;
+  margin-right:0;
+}
+
+form {
+  position: relative
+  }
+  
+input::placeholder {
+  margin-left:9em;
+  color: grey;
+  font-size: 1.2em;
+  font-family: 'PT Serif', serif;
+
+}
+
+button {
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 15px;
+    font-weight: 70;
+    background-color: #F68989;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left:-4px;
+    height:45px;
+    width:9%;
+  }
+
+
+  .icons {
+    margin-left:200px;
+    margin-top:20px;
+  }
+h2 {
+  font-size: 4em;
+  display: inline;
+  padding-top: 10px;
+}
+h3 {
+  font-family: 'PT Serif', serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #F68989;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+  .about {
+    margin-top: 170px;
+    float:left;
+    padding-left:710px;
+  }
+
+  .discoverbtn{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 15px;
+    font-weight: 70;
+    padding: 20px;
+    background-color: #F68989;
+    border: solid #FFAE00 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+  .specialty {
+    display:inline-block;
+    padding-top:300px;
+    width:100%;
+    height:800px;
+    float:left;
+    text-align: center;
+    clear: both;
+    padding-bottom:800px;
+  }
+
+  .visitus {
+    margin-top:300px;
+  }
+
+
+.menu {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  padding-top:25px;
+  padding-right:68px;
+  
+  
+}
+
+
+.images {
+  width:100%;
+
+}
+.foodpic {
+  width:200px; 
+  padding-right: 25px;
+  padding-top:5px;
+  object-fit: center;
+  margin-bottom:40px;
+ 
+}
+.opening {
+  display:inline-block;
+  text-align: center;
+  margin-top:150px;
+
+}
+
+table {
+  padding-top:30px;
+  padding-left: 600px;
+}
+
+td,th {
+  padding-right: 270px;
+}
+
+th {
+  font-family: 'PT Serif', serif;
+}
+
+
+td {
+font-family: 'Brush Script MT';
+font-size: 30px;
+}
+
+
+.foodplate {
+  margin-top: 100px;
+  width: 40%;
+}
+
+.costumer {
+  height:725px;
+  margin-top:200px;
+  text-align:center;
+  padding-left:265px;
+}
+
+.callnow {
+  padding-left:265px;
+}
+.picture {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.genesis {
+  color:black;
+  padding-bottom:5px;
+  margin-bottom:0;
+}
+
+.webdev {
+  color: grey;
+  paddint-top:10px;
+}
+
+.stars {
+  padding-top: 20px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media only screen and (max-width: 768px) {
+
+  *{
+    display:flex
+    flex-direction:column;
+  }
+
+}
